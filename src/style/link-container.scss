@@ -12,6 +12,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 80vh;
+        width: 100vw;
         padding-top: 10px;
         padding-left: 20px;
         padding-right: 20px;
@@ -20,6 +22,7 @@
         font-family: 'Righteous', cursive;
         color: $offwhite;
         border-bottom: 2px solid $offwhite;
+        background-color: $chransenmidgreen;
 
         .main-heading {
             font-size: 1rem;
