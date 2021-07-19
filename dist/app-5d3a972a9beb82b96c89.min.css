@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  font-family: 'Russo One', sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: #04594b;
+}
+
+.link-container .heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.75em;
+  font-weight: 2em;
+  color: #f6f6f6;
+}
+
+.btn-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.btn-links-wrapper .btn-link-wrapper {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-links-wrapper .btn-link-wrapper .btn-link {
+  cursor: pointer;
+  height: 60px;
+  font-size: 2em;
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+  background-color: #1c806f;
+  color: #f6f6f6;
+}
+
+.btn-links-wrapper .btn-link-wrapper .btn-link:active, .btn-links-wrapper .btn-link-wrapper .btn-link:focus {
+  outline: none;
+}
+
+.btn-links-wrapper .btn-link-wrapper .btn-link:hover {
+  background-color: #18fad4;
+  border-bottom: 5px solid #1c806f;
+}
+
+/*# sourceMappingURL=app-45acd56beec7bcd8a886.map*/
