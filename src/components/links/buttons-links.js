@@ -3,40 +3,40 @@ import React, { Component } from 'react';
 export default class BtnLinks extends Component {
   render() {
     return (
-      <div>
-        <div>
+      <div className="btn-links-wrapper">
+        <div className='btn-link-wrapper'>
             <a href='https://soundcloud.com/chransen'>
-                <button class="soundcloud">
+                <button class="btn-link">
                     Soundcloud
                 </button>
             </a>
         </div>
 
-        <div>
+        <div className ="btn-link-wrapper">
             <a href='https://open.spotify.com/artist/6VVQxpU220vD1zUgpxaABV'>
-                <button class="spotify">
+                <button class="btn-link">
                     Spotify
                 </button>
             </a>
         </div>
 
-        <div>
+        <div className="btn-link-wrapper">
             <a href='https://music.amazon.com/artists/B085DFWDT8/his-chransen'>
-                <button class="amazon-music">
+                <button class="btn-link">
                     Amazon Music
                 </button>
             </a>
         </div>
 
-        <div>
+        <div className="btn-link-wrapper">
             <a href='https://music.apple.com/us/artist/his-chransen/1501274074'>
-                <button class="apple-music">
+                <button class="btn-link">
                     Apple Music
                 </button>
             </a>
         </div>
 
-        
+
 
 
       </div>

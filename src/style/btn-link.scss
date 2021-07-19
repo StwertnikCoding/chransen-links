@@ -1,3 +1,18 @@
-.btn {
-    @include base-btn();
+.btn-links-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+
+    .btn-link-wrapper{
+
+        margin: 20px;
+        display: flex;
+        justify-content: space-between;
+
+
+        .btn-link {
+            @include base-btn();
+        }
+    }
 }

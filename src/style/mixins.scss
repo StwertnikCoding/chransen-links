@@ -1,12 +1,12 @@
 @mixin base-btn {
     cursor: pointer;
-    height: 42px;
-    font-size: 3em;
-    font-family: 'Zen Tokyo Zoo', cursive;
-    font-weight: 500;
+    height: 60px;
+    font-size: 2em;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
     border: 1px solid transparent;
     transition: all 0.5s ease-in-out;
-    background-color: $midred;
+    background-color: $chransenmidgreen;
     color: $offwhite;
 
     &:active, &:focus {
@@ -14,6 +14,7 @@
     }
 
     &:hover {
-        background-color: #6f0000;
+        background-color: $chransengreen;
+        border-bottom: 5px solid $chransenmidgreen;
     }
 }
