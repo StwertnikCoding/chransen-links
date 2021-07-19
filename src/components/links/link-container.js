@@ -8,7 +8,7 @@ export default class LinkContainer extends Component {
       <div className="link-container">
         <div className="heading-wrapper"> 
             <div className="main-heading">
-                <h1>His Chransen's Music :</h1>
+                <h1>His Chransen's Music</h1>
             </div>
             <div className='subtitle'>
                 <h3>Click a link to visit me there</h3>
