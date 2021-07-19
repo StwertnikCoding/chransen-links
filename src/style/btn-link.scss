@@ -1,15 +1,14 @@
 .btn-links-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-top: 20px;
+    justify-content: space-around;
     align-items: center;
 
     .btn-link-wrapper{
-
-        margin: 20px;
         display: flex;
         justify-content: space-between;
+        margin: 20px;
+        padding-bottom: 23px;
 
 
         .btn-link {
