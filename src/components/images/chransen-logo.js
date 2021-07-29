@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class ChransenLogo extends Component {
   render() {
     return (
-      <div>
-        <img src="../../../static/assets/logos/chransen-logo.png" />
+      <div className="logo-wrapper">
+        <img className="logo" src={require('../images/logo/chransen-transparent.png')}></img>
       </div>
     );
   }

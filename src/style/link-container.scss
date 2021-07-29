@@ -8,21 +8,35 @@
     background-color: $chransendarkgreen;
 
 
+   
+
     .heading-wrapper {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 120px;
+        height: 135px;
         width: 100vw;
-        padding-top: 10px;
+        padding-top: 60px;
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 20px;
+        padding-bottom: 60px;
         align-items: center;
         font-family: 'Righteous', cursive;
         color: $offwhite;
         border-bottom: 2px solid $offwhite;
         background-color: $chransenmidgreen;
+
+        .logo-wrapper {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img {
+                height: 15vh;
+                width: 150px;
+            }
+
+        }
 
         .main-heading {
             font-size: 1rem;

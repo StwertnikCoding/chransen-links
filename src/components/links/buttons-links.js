@@ -6,7 +6,7 @@ export default class BtnLinks extends Component {
       <div className="btn-links-wrapper">
         <div className='btn-link-wrapper'>
             <a href='https://soundcloud.com/chransen'>
-                <button class="btn-link">
+                <button className="btn-link">
                     Soundcloud
                 </button>
             </a>
@@ -14,7 +14,7 @@ export default class BtnLinks extends Component {
 
         <div className ="btn-link-wrapper">
             <a href='https://open.spotify.com/artist/6VVQxpU220vD1zUgpxaABV'>
-                <button class="btn-link">
+                <button className="btn-link">
                     Spotify
                 </button>
             </a>
@@ -22,7 +22,7 @@ export default class BtnLinks extends Component {
 
         <div className="btn-link-wrapper">
             <a href='https://music.amazon.com/artists/B085DFWDT8/his-chransen'>
-                <button class="btn-link">
+                <button className="btn-link">
                     Amazon Music
                 </button>
             </a>
@@ -30,7 +30,7 @@ export default class BtnLinks extends Component {
 
         <div className="btn-link-wrapper">
             <a href='https://music.apple.com/us/artist/his-chransen/1501274074'>
-                <button class="btn-link">
+                <button className="btn-link">
                     Apple Music
                 </button>
             </a>
