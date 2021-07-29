@@ -1,0 +1,38 @@
+.heading-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $chransendarkgreen;
+    
+    .heading-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 300px;
+        width: 100vw;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        align-items: center;
+        font-family: 'Righteous', cursive;
+        color: $offwhite;
+        border-bottom: 2px solid $offwhite;
+        background-color: $chransenmidgreen;
+
+
+        .main-heading {
+            font-size: 1rem;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+
+        }
+    }
+
+
+}

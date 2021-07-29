@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 
 
-import LinkContainer from '../links/link-container';
+import HeadingContainer from '../containers/heading-container';
+import LinkContainer from '../containers/link-container';
 
 
 export default class Homepage extends Component {
   render() {
     return (
       <div className="homepage-wrapper">
+        <div className='heading-container-wrapper'>
+          <HeadingContainer />
+        </div>
 
-        <LinkContainer />
+        <div className="link-container-wrapper">
+          <LinkContainer />
+        </div>
       </div>
     );
   }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class BtnLinks extends Component {
+export default class LinkContainer extends Component {
   render() {
     return (
       <div className="btn-links-wrapper">
