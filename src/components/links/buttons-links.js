@@ -21,6 +21,14 @@ export default class BtnLinks extends Component {
         </div>
 
         <div className="btn-link-wrapper">
+            <a href='https://www.youtube.com/channel/UC3qtq7c7WN4hVHIg4V-oXgA'>
+                <button className="btn-link">
+                    Youtube
+                </button>
+            </a>
+        </div>
+
+        <div className="btn-link-wrapper">
             <a href='https://music.amazon.com/artists/B085DFWDT8/his-chransen'>
                 <button className="btn-link">
                     Amazon Music
@@ -32,6 +40,14 @@ export default class BtnLinks extends Component {
             <a href='https://music.apple.com/us/artist/his-chransen/1501274074'>
                 <button className="btn-link">
                     Apple Music
+                </button>
+            </a>
+        </div>
+
+        <div className="btn-link-wrapper">
+            <a href='https://tidal.com/browse/artist/18425683'>
+                <button className="btn-link">
+                    Tidal
                 </button>
             </a>
         </div>
