@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class  extends Component {
   render() {
@@ -6,12 +7,20 @@ export default class  extends Component {
       <div className="icon-wrapper">
         
         <div className="instagram-icon-wrapper">
-            Instagram
+            <a 
+            className="hc-instagram-icon"
+            href="https://www.instagram.com/hischransen/">
+                <FontAwesomeIcon icon={['fab', 'instagram']} />
+            </a>
         </div>
 
         <div className="twitter-icon-wrapper"></div>
-            Twitter
-      </div>
+            <a 
+            className="hc-instagram-icon"
+            href="https://twitter.com/chransenhis?lang=en">
+                <FontAwesomeIcon icon={['fab', 'twitter']} />
+            </a>
+        </div>
     );
   }
 }
