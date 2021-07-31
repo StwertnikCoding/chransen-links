@@ -2,20 +2,33 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 400px;
-    padding-right: 70px;
-    padding-bottom: 20px;
+    padding-right: 35px;
+    padding-bottom: 30px;
 
     .instagram-icon-wrapper {
         padding: 0px 20px 0px 10px;
 
-        a {
-            cursor: pointer;
-            font-size: 7rem;
+        .hc-instagram-icon {
+            @include base-icon();
+
+            &:hover {
+                font-size: 3.5rem;
+                color: #8a3ab9;
+            }
         }
     }
 
     .twitter-icon-wrapper {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 10px;
+
+        .hc-twitter-icon {
+            @include base-icon();
+
+            &:hover {
+                font-size: 3.5rem;
+                color: #1DA1F2;
+            }
+        }
     }
+    
 }

@@ -14,13 +14,14 @@ export default class  extends Component {
             </a>
         </div>
 
-        <div className="twitter-icon-wrapper"></div>
-            <a 
-            className="hc-instagram-icon"
+        <div className="twitter-icon-wrapper">
+            <a
+            className="hc-twitter-icon"
             href="https://twitter.com/chransenhis?lang=en">
                 <FontAwesomeIcon icon={['fab', 'twitter']} />
             </a>
         </div>
+      </div>
     );
   }
 }

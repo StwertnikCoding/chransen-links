@@ -45,3 +45,10 @@
         border-bottom: 5px solid $chransenmidgreen;
     }
 }
+
+@mixin base-icon {
+    cursor: pointer;
+    font-size: 3rem;
+    color: $chransengreen;
+    transition: 0.3s ease-in-out;
+}
