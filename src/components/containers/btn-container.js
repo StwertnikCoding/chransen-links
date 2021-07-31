@@ -62,9 +62,9 @@ export default class BtnContainer extends Component {
         </div>
 
         <div className="btn-link-wrapper">
-            <a href='https://soundcloud.com/chransen/sets/alien-vomit-ep'>
+            <a href='https://chransenlinks.xyz/new-release'>
                 <button className="small-btn-link">
-                    His Chransen - Alien Vomit EP 
+                    His Chransen - Coming Soon 
                 </button>
             </a>
         </div>
