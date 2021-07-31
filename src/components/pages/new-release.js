@@ -1,24 +1,23 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 import HeadingContainer from '../containers/heading-container';
-import BtnContainer from '../containers/btn-container';
+import LinkContainer from '../containers/link-container'
 import IconContainer from '../containers/icon-container';
 
-export default class Homepage extends Component {
+export default class NewRelease extends Component {
   render() {
     return (
       <div className="homepage-wrapper">
-        <div className='heading-container-wrapper'>
-          <HeadingContainer />
+        <div className="heading-container-wrapper">
+            <HeadingContainer />
         </div>
-
-        <div className="btn-container-wrapper">
-          <BtnContainer />
+        <div className="link-container-wrapper">
+            <LinkContainer />
         </div>
 
         <div className="icon-container-wrapper">
-          <IconContainer />
+            <IconContainer />
         </div>
       </div>
     );

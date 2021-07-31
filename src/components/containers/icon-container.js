@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-export default class  extends Component {
+export default class IconContainer extends Component {
   render() {
     return (
       <div className="icon-wrapper">
