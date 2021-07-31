@@ -55,7 +55,7 @@ export default class BtnContainer extends Component {
 
         <div className="btn-link-wrapper">
             <a href='https://soundcloud.com/astronot88/promise-u-that-astronot-x-his-chransen'>
-                <button className="new-release-btn-link">
+                <button className="small-btn-link">
                     ASTRoNoT x His Chransen - Promise U That
                 </button>
             </a>
@@ -63,7 +63,7 @@ export default class BtnContainer extends Component {
 
         <div className="btn-link-wrapper">
             <a href='https://soundcloud.com/chransen/sets/alien-vomit-ep'>
-                <button className="new-release-btn-link">
+                <button className="small-btn-link">
                     His Chransen - Alien Vomit EP 
                 </button>
             </a>

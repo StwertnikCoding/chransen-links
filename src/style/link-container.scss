@@ -1,4 +1,4 @@
-.btn-links-wrapper {
+.new-release-btn-links-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -6,22 +6,20 @@
     height: 800px;
     width: 100%;
     padding-top: 30px;
-    padding-right: 45px;
+    padding-right: 20px;
     margin-bottom: 300px;
 
 
-    .btn-link-wrapper{
+    .new-release-btn-link-wrapper{
         display: flex;
         flex-direction: column;
         padding: 30px;
-        
+        padding-right: 80px;
     
 
-        .btn-link {
-            @include base-btn();
-        }
+        
 
-        .small-btn-link {
+        .new-release-btn-link {
              @include small-btn();
         }
     }
