@@ -47,7 +47,7 @@ export default class LinkContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a href='https://hypeddit.com/track/t8bqbd'>
+                <a className="download-link" href='https://hypeddit.com/track/t8bqbd'>
                     <button className="download-new-release-btn-link">
                         <div className="download-icon">
                             <FontAwesomeIcon icon="download" />

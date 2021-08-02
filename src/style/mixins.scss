@@ -47,6 +47,7 @@
 }
 
 @mixin even-smaller-btn {
+    text-decoration: none;
     cursor: pointer;
     height: 60px;
     width: 300px;
@@ -71,9 +72,69 @@
     }
 }
 
+@mixin tiny-btn {
+    text-decoration: none;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 200;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: $chransenmidgreen;
+    color: $chransengreen;
+
+    &:active, &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: $chransenmidgreen;
+        background-color: $chransengreen;
+        border-bottom: 5px solid $chransenmidgreen;
+        
+    }
+}
+
 @mixin base-icon {
     cursor: pointer;
     font-size: 3rem;
     color: $chransengreen;
     transition: 0.3s ease-in-out;
 }
+
+@mixin base-heading-container {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $chransendarkgreen;
+
+}
+
+@mixin base-heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 100vw;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 2px solid $chransengreen;
+    background-color: $chransenmidgreen;
+}
+
+@mixin base-heading-subtitle {
+    font-size: 1.75rem;
+    font-family: 'Hanalei Fill', cursive;
+    color: $offwhite;
+    font-weight: 100;
+}
+

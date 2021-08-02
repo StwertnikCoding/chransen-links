@@ -1,0 +1,39 @@
+.wrong-page-content-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-right: 50px;
+
+    .wrong-page-image-wrapper {
+        height: 100%;
+        width: 80%;
+
+        img {
+            
+            height: 100vh;
+            width: 50vw;
+
+        }
+    }
+
+    .wrong-page-heading-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+
+      
+
+        .wrong-page-heading {
+            color: $chransengreen;
+            padding-bottom: 10px;
+        }
+
+        .wrong-page-link {
+            @include tiny-btn();
+        }
+    }
+}

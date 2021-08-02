@@ -4,13 +4,13 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
-
 import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 
 
 import Homepage from './pages/home';
 import NewRelease from './pages/new-release';
+import NoMatch from './pages/no-match';
 
 library.add(fab, faDownload);
 
@@ -25,6 +25,7 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" component={Homepage} />
               <Route exact path="/new-release" component={NewRelease} />
+              <Route component={NoMatch} />
             </Switch>
           </div>
         </Router>  

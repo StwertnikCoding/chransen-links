@@ -1,11 +1,12 @@
-.heading-container{
+.wrong-page-heading-container{
     @include base-heading-container();
     
-    .heading-wrapper {
+    .wrong-page-heading-wrapper {
         @include base-heading-wrapper();
 
-        .subtitle {
+        .wrong-page-subtitle {
             @include  base-heading-subtitle();
+            
         }
     }
 }

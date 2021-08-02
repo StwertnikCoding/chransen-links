@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 800px;
+    height: 700px;
     width: 100%;
     padding-top: 30px;
     padding-right: 20px;
@@ -41,6 +41,10 @@
 
         .new-release-btn-link {
              @include even-smaller-btn();
+        }
+
+        .download-link {
+            text-decoration: none;
         }
 
         .download-new-release-btn-link {
