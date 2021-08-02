@@ -17,10 +17,29 @@
         padding-right: 80px;
     
 
+    .download-btn-link-wrapper {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        padding-right: 80px;
+    }
+
         
 
         .new-release-btn-link {
-             @include small-btn();
+             @include even-smaller-btn();
+        }
+
+        .download-new-release-btn-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            @include even-smaller-btn();
+
+            .download-icon {
+                font-size: 1.5rem;
+            }
         }
     }
 
