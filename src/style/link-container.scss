@@ -10,6 +10,19 @@
     margin-bottom: 300px;
 
 
+    .cover-image-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        padding-right: 80px;
+        
+        img {
+            height: 30vh;
+            width: 220px;
+        }
+    }
+
     .new-release-btn-link-wrapper{
         display: flex;
         flex-direction: column;
