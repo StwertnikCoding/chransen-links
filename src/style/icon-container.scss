@@ -1,9 +1,14 @@
 .icon-wrapper {
     display: flex;
-    justify-content: space-between;
+    background-color: $chransenmidgreen;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
     align-items: center;
     padding-right: 35px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    border-top: 2px solid $chransengreen;
 
     .instagram-icon-wrapper {
         padding: 0px 20px 0px 10px;
