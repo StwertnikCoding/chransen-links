@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import WrongPageHeadingContainer from '../containers/wrong-page-heading-container';
+import IconContainer from '../containers/icon-container';
 
 export default function() {
     return (
@@ -25,6 +26,7 @@ export default function() {
                 </div>
                 
             </div>
+            <IconContainer />
         </div>
     )
 }
