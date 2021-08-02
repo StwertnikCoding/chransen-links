@@ -10,7 +10,7 @@ export default class HeadingContainer extends Component {
         <div className="wrong-page-heading-wrapper"> 
            <ChransenLogo />
 
-           <h2 className="wrong-page-subtitle">Error</h2>
+           <h2 className="wrong-page-subtitle">404</h2>
         </div>
       </div>
     );

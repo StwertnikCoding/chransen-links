@@ -40,7 +40,7 @@
         
 
         .new-release-btn-link {
-             @include even-smaller-btn();
+             @include smaller-btn();
         }
 
         .download-link {
@@ -55,7 +55,8 @@
             @include even-smaller-btn();
 
             .download-icon {
-                font-size: 1.5rem;
+                padding-left: 5px;
+                font-size: 1rem;
             }
         }
     }

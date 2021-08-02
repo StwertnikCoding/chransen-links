@@ -46,12 +46,38 @@
     }
 }
 
-@mixin even-smaller-btn {
+@mixin smaller-btn {
     text-decoration: none;
     cursor: pointer;
     height: 60px;
     width: 300px;
     font-size: 1rem;
+    font-family: 'Sigmar One', cursive;
+    font-weight: 300;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: $chransenmidgreen;
+    color: $chransengreen;
+
+    &:active, &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        color: $chransenmidgreen;
+        background-color: $chransengreen;
+        border-bottom: 5px solid $chransenmidgreen;
+        
+    }
+}
+
+@mixin even-smaller-btn {
+    text-decoration: none;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+    font-size: 0.8rem;
     font-family: 'Sigmar One', cursive;
     font-weight: 300;
     border: 1px solid transparent;

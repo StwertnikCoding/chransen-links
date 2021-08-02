@@ -1,5 +1,7 @@
 .wrong-page-heading-container{
     @include base-heading-container();
+    height: 200px;
+    width: 100%;
     
     .wrong-page-heading-wrapper {
         @include base-heading-wrapper();
