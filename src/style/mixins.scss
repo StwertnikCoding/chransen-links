@@ -2,7 +2,7 @@
     cursor: pointer;
     height: 60px;
     width: 300px;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 300;
     border: 1px solid transparent;
@@ -10,6 +10,7 @@
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
+    box-shadow: 0 3px 2px $chransenoldgreen;
 
     &:active, &:focus {
         outline: none;
@@ -18,7 +19,8 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        border-bottom: 5px solid $chransenmidgreen;
+        border-radius: 20px;
+        box-shadow: 0 2px 4px $chransenoldgreen;
     }
 }
 
@@ -34,6 +36,7 @@
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
+    box-shadow: 0 3px 2px $chransencoolgreen;
 
     &:active, &:focus {
         outline: none;
@@ -42,7 +45,8 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        border-bottom: 5px solid $chransenmidgreen;
+        border-radius: 20px;
+        box-shadow: 0 3px 4px $chransencoolgreen;
     }
 }
 
@@ -52,13 +56,14 @@
     height: 60px;
     width: 300px;
     font-size: 1rem;
-    font-family: 'Sigmar One', cursive;
-    font-weight: 300;
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 200;
     border: 1px solid transparent;
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
+    box-shadow: 0 3px 2px $chransencoolgreen;
 
     &:active, &:focus {
         outline: none;
@@ -67,7 +72,8 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        border-bottom: 5px solid $chransenmidgreen;
+        border-radius: 40px;
+        box-shadow: 0 2px 3px $chransencoolgreen;
         
     }
 }
@@ -78,13 +84,14 @@
     height: 60px;
     width: 300px;
     font-size: 0.8rem;
-    font-family: 'Sigmar One', cursive;
+    font-family: 'Hanalei Fill', cursive;
     font-weight: 300;
     border: 1px solid transparent;
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
+    box-shadow: 0 3px 2px $chransenorange;
 
     &:active, &:focus {
         outline: none;
@@ -93,7 +100,8 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        border-bottom: 5px solid $chransenmidgreen;
+        border-radius: 40px;
+        box-shadow: 0 3px 5px $chransenorange;
         
     }
 }
@@ -102,8 +110,7 @@
     text-decoration: none;
     cursor: pointer;
     height: 40px;
-    width: 200px;
-    padding: 10px;
+    width: 100px;
     font-size: 0.7rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 200;
@@ -112,6 +119,7 @@
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
+    box-shadow: 0 2px 3px $chransenred;
 
     &:active, &:focus {
         outline: none;
@@ -120,7 +128,7 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        border-bottom: 5px solid $chransenmidgreen;
+        box-shadow: 0 2px 4px $chransenred;
         
     }
 }
@@ -153,7 +161,7 @@
     padding-right: 40px;
     padding-bottom: 10px;
     align-items: center;
-    border-bottom: 2px solid $chransengreen;
+    border-bottom: 2px solid $chransencoolgreen;
     background-color: $chransenmidgreen;
 }
 

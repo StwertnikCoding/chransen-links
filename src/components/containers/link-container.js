@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 import NewReleaseCover from '../images/new-release-cover';
 
@@ -9,9 +10,9 @@ export default class LinkContainer extends Component {
       <div>
         <div className="new-release-btn-links-wrapper">
 
-        <div className="cover-image-wrapper">
-            <NewReleaseCover />
-        </div>
+            <div className="cover-image-wrapper">
+                <NewReleaseCover />
+            </div>
 
             <div className='new-release-btn-link-wrapper'>
                 <a href='https://hypeddit.com/track/t8bqbd'>
@@ -55,6 +56,12 @@ export default class LinkContainer extends Component {
                         His Chransen - The Order [800 FOLLOWER FREE DL]
                     </button>
                 </a>
+            </div>
+
+            <div className='homepage-link-wrapper'>
+                <Link className="homepage-link" to="/">
+                    Return to Homepage
+                </Link>
             </div>
         </div>
       </div>

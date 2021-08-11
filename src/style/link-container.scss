@@ -37,8 +37,6 @@
         padding-right: 80px;
     }
 
-        
-
         .new-release-btn-link {
              @include smaller-btn();
         }
@@ -46,6 +44,7 @@
         .download-link {
             text-decoration: none;
         }
+        
 
         .download-new-release-btn-link {
             display: flex;
@@ -56,8 +55,25 @@
 
             .download-icon {
                 padding-left: 5px;
-                font-size: 1rem;
+                font-size: 0.8rem;
             }
+        }
+    }
+
+    .homepage-link-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        padding-right: 80px;
+
+        .homepage-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 55px;
+            @include tiny-btn();
         }
     }
 
