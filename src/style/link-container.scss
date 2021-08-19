@@ -14,12 +14,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 30px;
+        padding: 20px;
         padding-right: 78px;
         
         img {
             height: 30vh;
             width: 220px;
+            border: 1px solid $chransencoolgreen;
+            border-bottom: 3px solid $chransencoolgreen;
+            box-shadow: 0 3px 2px $chransenmidgreen;
         }
     }
 
@@ -62,6 +65,7 @@
                 
                 padding-left: 10px;
                 font-size: 1rem;
+                
             }
         }
     }
@@ -72,6 +76,7 @@
         align-items: center;
         justify-content: center;
         padding: 30px;
+        padding-bottom: 40px;
         padding-right: 80px;
 
         .homepage-link {
