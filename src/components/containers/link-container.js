@@ -14,6 +14,10 @@ export default class LinkContainer extends Component {
                 <NewReleaseCover />
             </div>
 
+            <div className="new-release-heading">
+                <h3>8/25/21</h3>
+            </div>
+
             <div className='new-release-btn-link-wrapper'>
                 <a href='https://hypeddit.com/track/t8bqbd'>
                     <button className="new-release-btn-link">
@@ -48,9 +52,20 @@ export default class LinkContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a className="download-link" href='https://hypeddit.com/track/t8bqbd'>
-                    <button className="download-new-release-btn-link">
-                        <div className="download-icon">
+                <a className="smaller-link" href='https://hypeddit.com/track/t8bqbd'>
+                    <button className="smaller-new-release-btn-link">
+                        <div className="smaller-icon">
+                        <FontAwesomeIcon icon={['fab', 'youtube']} />
+                        </div>
+                        His Chransen - The Order (Offical Visuals)
+                    </button>
+                </a>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                <a className="smaller-link" href='https://hypeddit.com/track/t8bqbd'>
+                    <button className="smaller-new-release-btn-link">
+                        <div className="smaller-icon">
                             <FontAwesomeIcon icon="download" />
                         </div>
                         His Chransen - The Order [800 FOLLOWER FREE DL]
