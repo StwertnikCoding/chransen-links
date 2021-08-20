@@ -3,22 +3,22 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 790px;
+    height: 850px;
     width: 100%;
     padding-top: 30px;
     padding-right: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 300px; 
 
 
     .cover-image-wrapper {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 20px;
-        padding-right: 65px;
+        padding: 15px;
+        padding-right: 60px;
         
         img {
-            height: 25vh;
+            height: 35vh;
             width: 220px;
             border: 1px solid $chransencoolgreen;
             border-bottom: 3px solid $chransencoolgreen;
@@ -28,7 +28,7 @@
 
     .new-release-heading {
         color: $offwhite;
-        padding-right: 50px;
+        padding-right: 45px;
     }
 
     .new-release-btn-link-wrapper{
@@ -75,8 +75,9 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 30px;
-        padding-bottom: 100px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 85px;
         padding-right: 80px;
 
         .homepage-link {
