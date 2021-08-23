@@ -27,7 +27,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://hypeddit.com/track/t8bqbd'>
+                <a href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         His Chransen - The Order on Spotify
                     </button>
@@ -35,7 +35,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://hypeddit.com/track/t8bqbd'>
+                <a href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         His Chransen - The Order on Apple Music
                     </button>
@@ -43,7 +43,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://hypeddit.com/track/t8bqbd'>
+                <a href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         His Chransen - The Order on Amazon
                     </button>
@@ -63,7 +63,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="smaller-link" href='https://hypeddit.com/track/t8bqbd'>
+                <a className="smaller-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="smaller-new-release-btn-link">
                         <div className="smaller-icon">
                             <FontAwesomeIcon icon="download" />
