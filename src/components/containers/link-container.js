@@ -19,7 +19,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://hypeddit.com/track/t8bqbd'>
+                <a href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         His Chransen - The Order on Soundcloud
                     </button>
@@ -52,12 +52,12 @@ export default class LinkContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a className="smaller-link" href='https://hypeddit.com/track/t8bqbd'>
+                <a className="smaller-link" href='https://youtu.be/jomxrVnsaXY'>
                     <button className="smaller-new-release-btn-link">
                         <div className="smaller-icon">
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                         </div>
-                        His Chransen - The Order (Offical Visuals)
+                        His Chransen - The Order (Youtube Premiere)
                     </button>
                 </a>
             </div>
