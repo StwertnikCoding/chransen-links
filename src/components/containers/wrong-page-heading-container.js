@@ -3,7 +3,7 @@ import ChransenLogo from '../images/chransen-logo';
 
 
 
-export default class HeadingContainer extends Component {
+export default class WrongPageHeadingContainer extends Component {
   render() {
     return (
       <div className="wrong-page-heading-container">

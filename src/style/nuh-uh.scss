@@ -1,0 +1,60 @@
+.nuh-uh-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .center-nuh-uh-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height: calc(100vh - 350px);
+        .nuh-uh-gif-wrapper {
+            align-items: center;
+            
+            
+            padding-top: 70px;
+            padding-right: 55px;
+            
+            .gif-wrapper {
+                
+                .gif {
+                    height: 130px;
+                    border: 2px solid $chransencoolgreen;
+                    border-radius: 15px;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        border: 2px solid $chransengreen;
+                        border-radius: 25px;
+                    }
+
+                }
+
+            }
+
+            
+        }
+
+        .nuh-uh-link-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 30px;
+            padding-top: 15px;
+            padding-bottom: 65px;
+            padding-right: 80px;
+
+            .nuh-uh-link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-left: 55px;
+                @include tiny-btn();
+            }  
+        }
+    }
+    
+    
+}
