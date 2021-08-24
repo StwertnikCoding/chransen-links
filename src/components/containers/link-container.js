@@ -15,12 +15,12 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className="new-release-heading">
-                <h3>8/25/21</h3>
+                <h3>OUT NOW!</h3>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://soundcloud.com/chransen/his-chransen-the-order-800-follower-free-dl'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
                             <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -32,7 +32,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://open.spotify.com/album/1prjk2hoCeTnHSbnWuAEF2?si=bL2dO9RzTjixkF1lG8SHng&dl_branch=1'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
                             <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -44,7 +44,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://music.apple.com/us/album/the-order-single/1582392788?uo=4&app=music&at=1001lry3&ct=dashboard'>
 
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
@@ -57,7 +57,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://www.amazon.com/The-Order/dp/B09DC4JXQ9/ref=sr_1_1?dchild=1&keywords=His+Chransen&qid=1629837477&s=dmusic&search-type=ss&sr=1-1'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
                             <FontAwesomeIcon icon={['fab', 'amazon']} />
@@ -81,7 +81,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="smaller-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="smaller-link" href='https://hypeddit.com/track/bts5s4'>
                     <button className="smaller-new-release-btn-link">
                         <div className="smaller-icon">
                             <FontAwesomeIcon icon="download" />
