@@ -49,6 +49,23 @@
 
         .new-release-btn-link {
              @include smaller-btn();
+             display: flex;
+             flex-direction: column;
+             justify-content: center;
+             align-items: center;
+            
+
+             .new-release-social-icon {
+                 display: flex;
+                 font-size: 0.95em;
+                 justify-content: center;
+                 align-items: center;
+                 padding-top: 2px;
+            }
+             
+        }
+        .bigger-link{
+            text-decoration: none;
         }
 
         .smaller-link {
@@ -57,7 +74,8 @@
         
 
         .smaller-new-release-btn-link {
-            display: grid;
+            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
 
@@ -65,7 +83,7 @@
 
             .smaller-icon {
                 
-                padding-left: 10px;
+                padding-left: 0px;
                 font-size: 0.6rem;
                 
             }
@@ -79,7 +97,7 @@
         justify-content: center;
         padding-left: 30px;
         padding-top: 45px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         padding-right: 75px;
 
         .homepage-link {

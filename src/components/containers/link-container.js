@@ -19,32 +19,50 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://www.chransenlinks.xyz/nuh-uh'>
+                
+                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
+                        <div className="new-release-social-icon"> 
+                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                        </div>
+                        
                         His Chransen - The Order on Soundcloud
                     </button>
                 </a>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
+                        <div className="new-release-social-icon"> 
+                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                        </div>
+
                         His Chransen - The Order on Spotify
                     </button>
                 </a>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
+
                     <button className="new-release-btn-link">
+                        <div className="new-release-social-icon"> 
+                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                        </div>
+
                         His Chransen - The Order on Apple Music
                     </button>
                 </a>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a href='https://www.chransenlinks.xyz/nuh-uh'>
+                <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
+                        <div className="new-release-social-icon"> 
+                            <FontAwesomeIcon icon={['fab', 'amazon']} />
+                        </div>
+
                         His Chransen - The Order on Amazon
                     </button>
                 </a>
