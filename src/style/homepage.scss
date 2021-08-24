@@ -3,26 +3,28 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 
     
 
     
     .heading-container-wrapper {
-        height: 60vh;
+        height: 250px;
         display: flex;
-        justify-content: space-between;
+        
 
     }
 
-    .link-container-wrapper {
-        height: 80vh;
+    .btn-container-wrapper {
+        height: calc(100vh + 100px);
         display: flex;
-        justify-content: space-between;
+
 
     }
 
-    .link-container-wrapper {
-        height: 900px;
+    .icon-container-wrapper {
+        height: 60px;
         padding: 0px;
     }
 

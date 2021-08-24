@@ -1,20 +1,20 @@
 .btn-links-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: 800px;
+    height: calc(100vh + 100px);
     width: 100%;
-    padding-top: 30px;
-    padding-right: 45px;
+    padding-top: 5px;
+    
     margin-bottom: 100px;
 
 
     .btn-link-wrapper{
         display: flex;
         flex-direction: column;
-        padding: 30px;
-        padding-right: 80px;
+        padding: 25px;
+        padding-right: 70px;
         
     
 
