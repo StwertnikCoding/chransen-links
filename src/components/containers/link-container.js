@@ -23,7 +23,7 @@ export default class LinkContainer extends Component {
                 <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
-                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                            <FontAwesomeIcon icon={['fab', 'soundcloud']} />
                         </div>
                         
                         His Chransen - The Order on Soundcloud
@@ -35,7 +35,7 @@ export default class LinkContainer extends Component {
                 <a className="bigger-link" href='https://www.chransenlinks.xyz/nuh-uh'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
-                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                            <FontAwesomeIcon icon={['fab', 'spotify']} />
                         </div>
 
                         His Chransen - The Order on Spotify
@@ -48,7 +48,7 @@ export default class LinkContainer extends Component {
 
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
-                            <FontAwesomeIcon icon={['fab', 'youtube']} />
+                            <FontAwesomeIcon icon={['fab', 'itunes-note']} />
                         </div>
 
                         His Chransen - The Order on Apple Music
