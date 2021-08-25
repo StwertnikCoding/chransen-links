@@ -20,7 +20,7 @@ export default class LinkContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a className="bigger-link" href='https://soundcloud.com/chransen/his-chransen-the-order-800-follower-free-dl'>
+                <a className="bigger-link" href='https://hypedd.it/3j1sl6'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
                             <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -32,7 +32,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="bigger-link" href='https://open.spotify.com/album/1prjk2hoCeTnHSbnWuAEF2?si=bL2dO9RzTjixkF1lG8SHng&dl_branch=1'>
+                <a className="bigger-link" href='https://hypedd.it/5dbz7u'>
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
                             <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -44,7 +44,7 @@ export default class LinkContainer extends Component {
             </div>
 
             <div className='new-release-btn-link-wrapper'>
-                <a className="bigger-link" href='https://music.apple.com/us/album/the-order-single/1582392788?uo=4&app=music&at=1001lry3&ct=dashboard'>
+                <a className="bigger-link" href='https://hypedd.it/5vgkxr'>
 
                     <button className="new-release-btn-link">
                         <div className="new-release-social-icon"> 
@@ -70,7 +70,7 @@ export default class LinkContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <a className="smaller-link" href='https://youtu.be/jomxrVnsaXY'>
+                <a className="smaller-link" href='https://hypedd.it/nnrztt'>
                     <button className="smaller-new-release-btn-link">
                         <div className="smaller-icon">
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
