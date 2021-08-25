@@ -55,7 +55,7 @@ export default class BtnContainer extends Component {
 
         <div className="btn-link-wrapper">
             <a href='https://soundcloud.com/astronot88/promise-u-that-astronot-x-his-chransen'>
-                <button className="small-btn-link">
+                <button className="btn-link">
                     ASTRoNoT x His Chransen - Promise U That
                 </button>
             </a>

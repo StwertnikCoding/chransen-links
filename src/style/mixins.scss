@@ -1,8 +1,8 @@
 @mixin base-btn {
     cursor: pointer;
     height: 50px;
-    width: 300px;
-    font-size: 1.4rem;
+    width: 250px;
+    font-size: 1.1rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 300;
     border: 1px solid transparent;
@@ -27,7 +27,7 @@
 @mixin small-btn {
     cursor: pointer;
     height: 50px;
-    width: 250px;
+    width: 300px;
     font-size: 1rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 300;
@@ -36,7 +36,7 @@
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
-    box-shadow: 0 3px 2px $chransencoolgreen;
+    box-shadow: 0 3px 2px $chransenred;
 
     &:active, &:focus {
         outline: none;
@@ -46,7 +46,7 @@
         color: $chransenmidgreen;
         background-color: $chransengreen;
         border-radius: 20px;
-        box-shadow: 0 3px 4px $chransencoolgreen;
+        box-shadow: 0 3px 4px $chransenred;
     }
 }
 
@@ -55,8 +55,8 @@
     text-align: center;
     cursor: pointer;
     height: 60px;
-    width: 300px;
-    font-size: 0.97rem;
+    width: 250px;
+    font-size: 0.8rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 200;
     border: 1px solid transparent;
@@ -74,7 +74,7 @@
         color: $chransenmidgreen;
         background-color: $chransengreen;
         border-radius: 40px;
-        box-shadow: 0 2px 3px $chransencoolgreen;
+        box-shadow: 0 3px 3px $chransenred;
         
     }
 }
@@ -83,7 +83,7 @@
     text-decoration: none;
     cursor: pointer;
     height: 50px;
-    width: 250px;
+    width: 300px;
     font-size: 0.8rem;
     font-family: 'Hanalei Fill', cursive;
     font-weight: 300;
@@ -92,7 +92,7 @@
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
     color: $chransengreen;
-    box-shadow: 0 3px 2px $chransenorange;
+    box-shadow: 0 3px 2px $chransenred;
 
     &:active, &:focus {
         outline: none;
@@ -102,7 +102,7 @@
         color: $chransenmidgreen;
         background-color: $chransengreen;
         border-radius: 40px;
-        box-shadow: 0 3px 5px $chransenorange;
+        box-shadow: 0 3px 5px $chransencoolgreen;
         
     }
 }
@@ -129,7 +129,7 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransengreen;
-        box-shadow: 0 2px 4px $chransenred;
+        box-shadow: 0 3px 4px $chransencoolgreen;
         
     }
 }

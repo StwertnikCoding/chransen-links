@@ -68,6 +68,19 @@ export default class LinkContainer extends Component {
                 </a>
             </div>
 
+            
+
+            <div className='new-release-btn-link-wrapper'>
+                <a className="bigger-link" href='https://hypeddit.com/track/bts5s4'>
+                    <button className="new-release-btn-link">
+                        <div className="new-release-social-icon">
+                            <FontAwesomeIcon icon="download" />
+                        </div>
+                        His Chransen - The Order [800 FOLLOWER FREE DL]
+                    </button>
+                </a>
+            </div>
+
             <div className='new-release-btn-link-wrapper'>
                 
                 <a className="smaller-link" href='https://hypedd.it/nnrztt'>
@@ -75,18 +88,7 @@ export default class LinkContainer extends Component {
                         <div className="smaller-icon">
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                         </div>
-                        His Chransen - The Order (Youtube Premiere)
-                    </button>
-                </a>
-            </div>
-
-            <div className='new-release-btn-link-wrapper'>
-                <a className="smaller-link" href='https://hypeddit.com/track/bts5s4'>
-                    <button className="smaller-new-release-btn-link">
-                        <div className="smaller-icon">
-                            <FontAwesomeIcon icon="download" />
-                        </div>
-                        His Chransen - The Order [800 FOLLOWER FREE DL]
+                        His Chransen - The Order (Official Visuals)
                     </button>
                 </a>
             </div>
