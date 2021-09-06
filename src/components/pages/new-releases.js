@@ -20,7 +20,7 @@ export default class NewReleases extends Component {
             <div className="icon-container-wrapper">
                 <IconContainer />
             </div>
-      </div>
+        </div>
     );
   }
 }
