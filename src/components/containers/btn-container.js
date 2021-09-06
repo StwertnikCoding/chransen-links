@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class BtnContainer extends Component {
   render() {
@@ -62,11 +63,12 @@ export default class BtnContainer extends Component {
         </div>
 
         <div className="btn-link-wrapper">
-            <a href='https://chransenlinks.xyz/new-release'>
+            <Link to="/the-order">
                 <button className="small-btn-link">
-                    His Chransen - The Order [800 Follower FREE DL] 
+                        His Chransen - The Order [800 Follower FREE DL] 
                 </button>
-            </a>
+            </Link>
+            
         </div>
 
 

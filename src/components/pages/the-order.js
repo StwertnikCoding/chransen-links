@@ -5,7 +5,7 @@ import HeadingContainer from '../containers/heading-container';
 import LinkContainer from '../containers/link-container'
 import IconContainer from '../containers/icon-container';
 
-export default class NewRelease extends Component {
+export default class TheOrder extends Component {
   render() {
     return (
       <div className="homepage-wrapper">
