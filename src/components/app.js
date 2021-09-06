@@ -10,7 +10,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 import Homepage from './pages/home'; 
 import NewReleases from './pages/new-releases';
-import TheOrder from './pages/the-order';
+import TheOrder from './pages/recent-releases/the-order';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
 

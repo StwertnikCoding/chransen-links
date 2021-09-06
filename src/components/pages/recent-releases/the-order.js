@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import HeadingContainer from '../containers/heading-container';
-import LinkContainer from '../containers/link-container'
-import IconContainer from '../containers/icon-container';
+import HeadingContainer from '../../containers/heading-container';
+import LinkContainer from '../../containers/link-container'
+import IconContainer from '../../containers/icon-container';
 
 export default class TheOrder extends Component {
   render() {
