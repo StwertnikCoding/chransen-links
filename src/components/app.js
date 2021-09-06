@@ -9,6 +9,7 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 
 import Homepage from './pages/home'; 
+import NewReleases from './pages/new-releases';
 import TheOrder from './pages/the-order';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
@@ -25,8 +26,10 @@ export default class App extends Component {
           <div>
             <Switch>
               <Route exact path="/" component={Homepage} />
+              <Route exact path ="/new-releases" component={NewReleases} />
               <Route exact path="/the-order" component={TheOrder} />
               <Route exact path="/nuh-uh" component={NuhUh} />
+              
               <Route component={NoMatch} />
             </Switch>
           </div>

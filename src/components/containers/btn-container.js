@@ -63,9 +63,9 @@ export default class BtnContainer extends Component {
         </div>
 
         <div className="btn-link-wrapper">
-            <Link to="/the-order">
+            <Link to="/new-releases">
                 <button className="small-btn-link">
-                        His Chransen - The Order [800 Follower FREE DL] 
+                        Check out all of my recent releases! 
                 </button>
             </Link>
             
