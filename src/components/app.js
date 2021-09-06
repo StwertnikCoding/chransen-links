@@ -13,6 +13,8 @@ import NewReleases from './pages/new-releases';
 import TheOrder from './pages/recent-releases/the-order';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
+import PromiseUThat from './pages/recent-releases/promise-u-that';
+import ComingSoon from './pages/recent-releases/coming-soon';
 
 library.add(fab, faDownload);
 
@@ -27,7 +29,9 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" component={Homepage} />
               <Route exact path ="/new-releases" component={NewReleases} />
+              <Route exact path="/promise-u-that" component={PromiseUThat} />
               <Route exact path="/the-order" component={TheOrder} />
+              <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               
               <Route component={NoMatch} />
