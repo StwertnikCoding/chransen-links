@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 import TheOrderCover from '../images/the-order-cover';
-import NewReleaseCover from '../images/new-release-cover';
+import NewReleaseCover from '../images/promise-cover';
 
 export default class LinkContainer extends Component {
   render() {

@@ -1,55 +1,41 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-import NewReleaseCover from '../images/new-release-cover';
+import PromiseCover from '../images/promise-cover';
 
 export default class PromiseButtonContainer extends Component {
   render() {
     return (
         <div className="new-release-btn-links-wrapper">
         
-        <div className="cover-image-wrapper">
-            <NewReleaseCover />
-        </div>
+            <div className="cover-image-wrapper">
+                <PromiseCover />
+            </div>
 
 
-        <div className="new-release-heading">
-            <h2>Check Out My Recent Releases Below</h2>
-        </div>
+            <div className="new-release-heading">
+                <h2>His Chransen x ASTRoNoT - Promise U That</h2>
+            </div>
 
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/promise-u-that">
-                <button className="new-release-btn-link">
-                    His Chransen x ASTRoNoT - Promise U That
-                </button>
-            </Link>
-        </div>
+            <div className='new-release-btn-link-wrapper'>
+                    
+                    <a className="bigger-link" href='https://soundcloud.com/astronot88/promise-u-that-astronot-x-his-chransen?in=chransen/sets/collabs-released-elsewhere'>
+                        <button className="new-release-btn-link">
+                            <div className="new-release-social-icon"> 
+                                <FontAwesomeIcon icon={['fab', 'soundcloud']} />
+                            </div>
+                            His Chransen x ASTRoNoT - Promise U That
+                        </button>
+                    </a>
+                </div>
 
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/the-order">
-                <button className="new-release-btn-link">
-                    His Chransen - The Order [800 Follower FREE DL]
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/coming-soon">
-                <button className="new-release-btn-link">
-                    Coming Soon
-                </button>
-            </Link>
-        </div>
-
-        <div className='homepage-link-wrapper'>
-            <Link className="homepage-link" to="/">
-                Return to Homepage
-            </Link>
-        </div>
+            <div className='homepage-link-wrapper'>
+                <Link className="homepage-link" to="/">
+                    Return to Homepage
+                </Link>
+            </div>
       </div>
     );
   }

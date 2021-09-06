@@ -5,7 +5,7 @@ export default class PromiseCover extends Component {
   render() {
     return (
         <div className="cover-wrapper">
-            <img className="cover" src={require('../images/covers/the-order.png')}></img>
+            <img className="cover" src={require('../images/covers/promise-u-that.png')}></img>
         </div>
     );
   }
