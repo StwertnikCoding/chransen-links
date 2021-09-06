@@ -9,7 +9,7 @@ export default class NewReleaseButtonContainer extends Component {
         <div className="new-release-btn-links-wrapper">
         
             <div className="cover-image-wrapper">
-                <ChransenLogo />
+                <PromiseCover />
             </div>
 
 

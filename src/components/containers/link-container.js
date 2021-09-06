@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
 import TheOrderCover from '../images/the-order-cover';
+import NewReleaseCover from '../images/new-release-cover';
 
 export default class LinkContainer extends Component {
   render() {
@@ -11,7 +12,7 @@ export default class LinkContainer extends Component {
         <div className="new-release-btn-links-wrapper">
 
             <div className="cover-image-wrapper">
-                <TheOrderCover />
+                <NewReleaseCover />
             </div>
 
             <div className="new-release-heading">
