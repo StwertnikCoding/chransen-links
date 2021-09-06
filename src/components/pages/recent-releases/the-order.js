@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import HeadingContainer from '../../containers/heading-container';
-import LinkContainer from '../../containers/the-order-button-container'
+import TheOrderButtonContainer from '../../containers/the-order-button-container';
 import IconContainer from '../../containers/icon-container';
 
 export default class TheOrder extends Component {
@@ -13,7 +13,7 @@ export default class TheOrder extends Component {
             <HeadingContainer />
         </div>
         <div className="link-container-wrapper">
-            <LinkContainer />
+            <TheOrderButtonContainer />
         </div>
 
         <div className="icon-container-wrapper">
