@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import ChransenLogo from '../images/chransen-logo';
+
+import NewReleaseCover from '../images/new-release-cover';
 
 export default class PromiseButtonContainer extends Component {
   render() {
@@ -9,7 +10,7 @@ export default class PromiseButtonContainer extends Component {
         <div className="new-release-btn-links-wrapper">
         
         <div className="cover-image-wrapper">
-            <ChransenLogo />
+            <NewReleaseCover />
         </div>
 
 
