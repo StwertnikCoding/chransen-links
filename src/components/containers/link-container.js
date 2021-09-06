@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 
-import NewReleaseCover from '../images/new-release-cover';
+import TheOrderCover from '../images/the-order-cover';
 
 export default class LinkContainer extends Component {
   render() {
@@ -11,7 +11,7 @@ export default class LinkContainer extends Component {
         <div className="new-release-btn-links-wrapper">
 
             <div className="cover-image-wrapper">
-                <NewReleaseCover />
+                <TheOrderCover />
             </div>
 
             <div className="new-release-heading">

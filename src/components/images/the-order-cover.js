@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class NewReleaseCover extends Component {
+export default class TheOrderCover extends Component {
   render() {
     return (
       <div className="cover-wrapper">
