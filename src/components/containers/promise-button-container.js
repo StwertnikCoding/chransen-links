@@ -32,6 +32,13 @@ export default class PromiseButtonContainer extends Component {
                 </div>
 
             <div className='homepage-link-wrapper'>
+                <Link className="go-back-link" to="/new-releases">
+                    Go Back
+                </Link>
+            </div>
+
+
+            <div className='homepage-link-wrapper'>
                 <Link className="homepage-link" to="/">
                     Return to Homepage
                 </Link>

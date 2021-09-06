@@ -19,18 +19,18 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/promise-u-that">
+                <Link className="bigger-link" to="/the-order">
                     <button className="new-release-btn-link">
-                        His Chransen x ASTRoNoT - Promise U That
+                        His Chransen - The Order [800 Follower FREE DL]
                     </button>
                 </Link>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/the-order">
+                <Link className="bigger-link" to="/promise-u-that">
                     <button className="new-release-btn-link">
-                        His Chransen - The Order [800 Follower FREE DL]
+                        His Chransen x ASTRoNoT - Promise U That
                     </button>
                 </Link>
             </div>
@@ -43,11 +43,13 @@ export default class NewReleaseButtonContainer extends Component {
                     </button>
                 </Link>
             </div>
-
-            <div className='homepage-link-wrapper'>
-                <Link className="homepage-link" to="/">
-                    Return to Homepage
-                </Link>
+            <div className="exit-buttons-wrapper">
+               
+                <div className='homepage-link-wrapper'>
+                    <Link className="homepage-link" to="/">
+                        Return to Homepage
+                    </Link>
+                </div>
             </div>
     </div>
     );

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import TheOrderCover from '../images/the-order-cover';
 import NewReleaseCover from '../images/promise-cover';
 
-export default class LinkContainer extends Component {
+export default class TheOrderButtonContainer extends Component {
   render() {
     return (
       <div>
@@ -92,6 +92,12 @@ export default class LinkContainer extends Component {
                         His Chransen - The Order (Official Visuals)
                     </button>
                 </a>
+            </div>
+
+            <div className='homepage-link-wrapper'>
+                <Link className="go-back-link" to="/new-releases">
+                    Go Back
+                </Link>
             </div>
 
             <div className='homepage-link-wrapper'>

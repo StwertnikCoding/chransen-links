@@ -48,9 +48,9 @@
 
             .nuh-uh-link {
                 display: flex;
+                text-align: center;
                 justify-content: center;
                 align-items: center;
-                padding-left: 55px;
                 @include tiny-btn();
             }  
         }

@@ -35,7 +35,7 @@
     .new-release-btn-link-wrapper{
         display: flex;
         flex-direction: column;
-        padding: 15px;
+        padding: 20px;
         padding-right: 70px;
     
 
@@ -91,37 +91,31 @@
         }
     }
 
-    .exit-buttons-wrapper {
-        
-    
-        .homepage-link-wrapper {
+    .homepage-link-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        padding-right: 85px;
+
+        .go-back-link{
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding-left: 30px;
-            padding-top: 45px;
-            padding-bottom: 20px;
-            padding-right: 85px;
+            text-align: center;
+            @include tiny-btn();
+        }
 
-            .go-back-link{
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                text-align: center;
-                @include tiny-btn();
-
-                font-size: 1em;
-            }
-
-            .homepage-link {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                @include tiny-btn();
-                
-            }
+        .homepage-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            @include tiny-btn();
+            
         }
     }
 

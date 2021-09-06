@@ -44,6 +44,11 @@ export default class ComingSoonButtonContainer extends Component {
                 </button>
             </Link>
         </div>
+        <div className='homepage-link-wrapper'>
+            <Link className="go-back-link" to="/new-releases">
+                Go Back
+            </Link>
+        </div>
 
         <div className='homepage-link-wrapper'>
             <Link className="homepage-link" to="/">
