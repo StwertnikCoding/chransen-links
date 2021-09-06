@@ -14,7 +14,7 @@ export default class NewReleaseButtonContainer extends Component {
 
 
             <div className="new-release-heading">
-                <h2>Check Out My Recent Releases Below</h2>
+                <h3>Check Out My Recent Releases Below</h3>
             </div>
 
             <div className='new-release-btn-link-wrapper'>

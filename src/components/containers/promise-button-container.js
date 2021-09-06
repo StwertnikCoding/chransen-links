@@ -16,7 +16,7 @@ export default class PromiseButtonContainer extends Component {
 
 
             <div className="new-release-heading">
-                <h2>His Chransen x ASTRoNoT - Promise U That</h2>
+                <h3>His Chransen x ASTRoNoT - Promise U That</h3>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
