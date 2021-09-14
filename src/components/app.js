@@ -11,10 +11,13 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 import Homepage from './pages/home'; 
 import NewReleases from './pages/new-releases';
 import TheOrder from './pages/recent-releases/the-order';
+import PromiseUThat from './pages/recent-releases/promise-u-that';
+import KnockKnock from './pages/recent-releases/knock-knock';
+import ComingSoon from './pages/recent-releases/coming-soon';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
-import PromiseUThat from './pages/recent-releases/promise-u-that';
-import ComingSoon from './pages/recent-releases/coming-soon';
+
+
 
 library.add(fab, faDownload);
 
@@ -31,6 +34,7 @@ export default class App extends Component {
               <Route exact path ="/new-releases" component={NewReleases} />
               <Route exact path="/promise-u-that" component={PromiseUThat} />
               <Route exact path="/the-order" component={TheOrder} />
+              <Route exact path="/chibs-knock-knock-remix" component={KnockKnock} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               

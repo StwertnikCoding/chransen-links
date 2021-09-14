@@ -39,6 +39,15 @@ export default class NewReleaseButtonContainer extends Component {
                 
                 <Link className="bigger-link" to="/coming-soon">
                     <button className="new-release-btn-link">
+                        Chibs - Knock Knock (His Chransen Remix)
+                    </button>
+                </Link>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
+                <Link className="bigger-link" to="/coming-soon">
+                    <button className="new-release-btn-link">
                         Coming Soon
                     </button>
                 </Link>
