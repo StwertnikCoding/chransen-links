@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import ChransenLogo from '../images/chransen-logo';
+import KnockKnockCover from '../images/knock-knock-cover';
 
 export default class KnockKnockButtonContainer extends Component {
   render() {
@@ -10,14 +10,14 @@ export default class KnockKnockButtonContainer extends Component {
         <div className="new-release-btn-links-wrapper">
         
         <div className="cover-image-wrapper">
-            <ChransenLogo />
+            <KnockKnockCover />
         </div>
 
 
         <div className="new-release-heading">
             <h1>TOMORROW</h1>
 
-            <h3>#DiscipleRemixComp2</h3>
+            <h3># DiscipleRemixComp2</h3>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
@@ -35,7 +35,7 @@ export default class KnockKnockButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <a className="bigger-link" href="https://www.youtube.com/watch?v=tB9z0SHBBSI">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
@@ -44,7 +44,7 @@ export default class KnockKnockButtonContainer extends Component {
                     Chibs - Knock Knock (His Chransen Remix) (Official Visuals)
 
                 </button>
-            </Link>
+            </a>
         </div>
         <div className='homepage-link-wrapper'>
             <Link className="go-back-link" to="/new-releases">
