@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import HeadingContainer from '../../containers/heading-container';
-import ComingSoonButtonContainer from '../../containers/coming-soon-button-container';
+import KnockKnockButtonContainer from '../../containers/knock-knock-button-container';
 import IconContainer from '../../containers/icon-container';
 
 export default class ComingSoon extends Component {
@@ -13,7 +13,7 @@ export default class ComingSoon extends Component {
         </div>
 
         <div className="link-container-wrapper">
-            <ComingSoonButtonContainer />
+            <KnockKnockButtonContainer />
         </div>
 
         <div className="icon-container-wrapper">
