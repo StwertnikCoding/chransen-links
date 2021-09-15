@@ -15,14 +15,14 @@ export default class KnockKnockButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>TOMORROW</h1>
+            <h1>OUT NOW!!!</h1>
 
             <h3># DiscipleRemixComp2</h3>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <a className="bigger-link" href="https://soundcloud.com/chransen/chibs-knock-knock-his-chransen-remix">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -30,7 +30,7 @@ export default class KnockKnockButtonContainer extends Component {
 
                     Chibs - Knock Knock (His Chransen Remix) on Soundcloud
                 </button>
-            </Link>
+            </a>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
