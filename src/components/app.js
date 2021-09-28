@@ -35,6 +35,7 @@ export default class App extends Component {
               <Route exact path="/promise-u-that" component={PromiseUThat} />
               <Route exact path="/the-order" component={TheOrder} />
               <Route exact path="/chibs-knock-knock-remix" component={KnockKnock} />
+              <Route exact path="/spaceghost-thevisit-remix" component={TheVisit} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               
