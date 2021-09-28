@@ -27,7 +27,7 @@ export default class TheVisitButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
                     </div>
 
-                    His Chransen - Coming Soon on Soundcloud
+                    SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix) on Soundcloud
                 </button>
             </Link>
         </div>
@@ -42,6 +42,18 @@ export default class TheVisitButtonContainer extends Component {
 
                     SpaceGhost x Brikz x Mammoth - The Visit (SpaceGhost VIP) (His Chransen Remix) (Official Visuals)
 
+                </button>
+            </Link>
+        </div>
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="visit-bigger-link" to="/nuh-uh">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon='download' />
+                    </div>
+
+                    SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix) [FREE DL]
                 </button>
             </Link>
         </div>
