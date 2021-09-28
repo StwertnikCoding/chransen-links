@@ -46,6 +46,15 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
+                <Link className="bigger-link" to="/spaceghost-thevisit-remix">
+                    <button className="new-release-btn-link">
+                        SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix)
+                    </button>
+                </Link>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
                 <Link className="bigger-link" to="/coming-soon">
                     <button className="new-release-btn-link">
                         Coming Soon

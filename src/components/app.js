@@ -13,6 +13,7 @@ import NewReleases from './pages/new-releases';
 import TheOrder from './pages/recent-releases/the-order';
 import PromiseUThat from './pages/recent-releases/promise-u-that';
 import KnockKnock from './pages/recent-releases/knock-knock';
+import TheVisit from './pages/recent-releases/the-visit-remix';
 import ComingSoon from './pages/recent-releases/coming-soon';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
