@@ -21,7 +21,7 @@ export default class TheVisitButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="visit-bigger-link" to="/nuh-uh">
+            <Link className="visit-bigger-link" to={{ pathname: "https://soundcloud.com/chransen/spaceghost-x-brikz-x-mammoth-the-visit-spaceghost-vip-his-chransen-remix-free-dl"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -47,7 +47,7 @@ export default class TheVisitButtonContainer extends Component {
         </div>
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="visit-bigger-link" to="/nuh-uh">
+            <Link className="visit-bigger-link" to={{ pathname: "https://hypeddit.com/track/g5wn4x"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
