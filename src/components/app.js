@@ -17,6 +17,8 @@ import TheVisit from './pages/recent-releases/the-visit-remix';
 import ComingSoon from './pages/recent-releases/coming-soon';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
+import StimulantVip from './pages/recent-releases/stimulant-vip';
+import GhostWobbleVip from './pages/recent-releases/ghost-wobble-vip';
 
 
 
@@ -37,6 +39,8 @@ export default class App extends Component {
               <Route exact path="/the-order" component={TheOrder} />
               <Route exact path="/chibs-knock-knock-remix" component={KnockKnock} />
               <Route exact path="/spaceghost-thevisit-remix" component={TheVisit} />
+              <Route exact path ="/stimulant-vip" component={StimulantVip} />
+              <Route exact path = "/ghost-wobble-vip" component={GhostWobbleVip} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               

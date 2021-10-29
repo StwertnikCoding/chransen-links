@@ -37,6 +37,24 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
+                <Link className="bigger-link" to="/stimulant-vip">
+                    <button className="new-release-btn-link">
+                        His Chransen - Stimulant (VIP)
+                    </button>
+                </Link>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
+                <Link className="bigger-link" to="/ghost-wobble-vip">
+                    <button className="new-release-btn-link">
+                        His Chransen - Ghost Wobble (VIP)
+                    </button>
+                </Link>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
                 <Link className="bigger-link" to="/chibs-knock-knock-remix">
                     <button className="new-release-btn-link">
                         Chibs - Knock Knock (His Chransen Remix)
