@@ -15,18 +15,14 @@ export default class ComingSoonButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>Coming Soon</h1>
+            <h1>Coming Soon !!!!</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
             <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'soundcloud']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Soundcloud
+                    His Chransen - Coming Soon on (Whole Album)
                 </button>
             </Link>
         </div>
@@ -35,15 +31,12 @@ export default class ComingSoonButtonContainer extends Component {
             
             <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'youtube']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Youtube
-
+                    His Chransen - Coming Soon (Individual Links)
                 </button>
             </Link>
         </div>
+
+
         <div className='homepage-link-wrapper'>
             <Link className="go-back-link" to="/new-releases">
                 Go Back
