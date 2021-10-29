@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-import StimulantVipCover from '../images/stimulant-vip-cover';
+import GhostWobbleVipCover from '../images/ghost-wobble-cover';
 
 export default class GhostWobbleVipButtonContainer extends Component {
   render() {
@@ -11,36 +11,36 @@ export default class GhostWobbleVipButtonContainer extends Component {
         <div className="new-release-btn-links-wrapper">
         
         <div className="cover-image-wrapper">
-            <StimulantVipCover />
+            <GhostWobbleVipCover />
         </div>
 
 
         <div className="new-release-heading">
-            <h1>Out Now!</h1>
+            <h1>Halloween</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://soundcloud.com/chransen/his-chransen-stimulant-vip-free-dl"}} target="_blank">
+        <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
                     </div>
 
-                    His Chransen - Stimulant (VIP) on Soundcloud
+                    His Chransen - Ghost Wobble (VIP) on Soundcloud
                 </button>
             </Link>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=yVeNB5qNncI&t=59s"}} target="_blank">
+            <Link className="bigger-link" to="/nuh-uh" target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    His Chransen - Stimulant (VIP) (Official Visuals)
+                    His Chransen - Ghost Wobble (VIP) (Youtube Premiere)
 
                 </button>
             </Link>
@@ -49,13 +49,13 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://open.spotify.com/track/2EzA85kmBxUhNU5l0BjczU?si=96794a16a98240e7"}} target="_blank">
+            <Link className="bigger-link" to="/nuh-uh" target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
                     </div>
 
-                    His Chransen - Stimulant (VIP) on Spotify
+                    His Chransen - Ghost Wobble (VIP) on Spotify
 
                 </button>
             </Link>
@@ -63,13 +63,13 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://youtu.be/Pebqg1ULIcc"}} target="_blank">
+        <Link className="bigger-link" to="/nuh-uh" target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'apple']} />
                     </div>
 
-                    His Chransen - Stimulant (VIP) on Apple Music
+                    His Chransen - Ghost Wobble (VIP) on Apple Music
 
                 </button>
             </Link>
@@ -77,13 +77,13 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://youtu.be/Pebqg1ULIcc"}} target="_blank">
+            <Link className="bigger-link" to="/nuh-uh" target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
                     </div>
 
-                    His Chransen - Stimulant (VIP) on Amazon
+                    His Chransen - Ghost Wobble (VIP) on Amazon
 
                 </button>
             </Link>
@@ -96,7 +96,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
                     </div>
-                    His Chransen - Stimulant (VIP) [FREE DL]
+                    His Chransen - Ghost Wobble (VIP) [FREE DL]
                 </button>
             </Link>
         </div>
