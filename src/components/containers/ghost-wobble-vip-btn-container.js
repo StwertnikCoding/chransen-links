@@ -34,7 +34,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=v8I8zg4Lz1o" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
