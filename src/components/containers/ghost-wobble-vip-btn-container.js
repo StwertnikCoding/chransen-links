@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import StimulantVipCover from '../images/stimulant-vip-cover';
 
-export default class StimulantVipButtonContainer extends Component {
+export default class GhostWobbleVipButtonContainer extends Component {
   render() {
     return (
         <div className="new-release-btn-links-wrapper">

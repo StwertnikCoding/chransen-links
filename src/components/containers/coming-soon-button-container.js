@@ -22,7 +22,7 @@ export default class ComingSoonButtonContainer extends Component {
             
             <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    His Chransen - Coming Soon on (Whole Album)
+                    His Chransen - Coming Soon (Whole Album)
                 </button>
             </Link>
         </div>
