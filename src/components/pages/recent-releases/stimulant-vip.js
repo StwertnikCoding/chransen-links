@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import HeadingContainer from '../../containers/heading-container';
-import ComingSoonButtonContainer from '../../containers/coming-soon-button-container';
+import StimulantVipButtonContainer from '../../containers/stimulant-vip-btn-container';
 import IconContainer from '../../containers/icon-container';
 
 export default class StimulantVip extends Component {
@@ -13,7 +13,7 @@ export default class StimulantVip extends Component {
         </div>
 
         <div className="link-container-wrapper">
-            <ComingSoonButtonContainer />
+            <StimulantVipButtonContainer />
         </div>
 
         <div className="icon-container-wrapper">

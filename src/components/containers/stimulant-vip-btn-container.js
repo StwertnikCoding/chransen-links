@@ -3,20 +3,20 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-import TheVisitCover from '../images/the-visit-cover';
+import StimulantVipCover from '../images/stimulant-vip-cover';
 
-export default class TheVisitButtonContainer extends Component {
+export default class StimulantVipButtonContainer extends Component {
   render() {
     return (
         <div className="new-release-btn-links-wrapper">
         
         <div className="cover-image-wrapper">
-            <TheVisitCover />
+            <StimulantVipCover />
         </div>
 
 
         <div className="new-release-heading">
-            <h1>Out Now</h1>
+            <h1>MIDNIGHT</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
