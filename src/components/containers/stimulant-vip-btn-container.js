@@ -16,7 +16,7 @@ export default class StimulantVipButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>MIDNIGHT</h1>
+            <h1>Out Now!</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
@@ -27,7 +27,7 @@ export default class StimulantVipButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
                     </div>
 
-                    SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix) on Soundcloud
+                    His Chransen - Stimulant (VIP) on Soundcloud
                 </button>
             </Link>
         </div>
@@ -40,7 +40,7 @@ export default class StimulantVipButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    SpaceGhost x Brikz x Mammoth - The Visit (SpaceGhost VIP) (His Chransen Remix) (Official Visuals)
+                    His Chransen - Stimulant (VIP) (Official Visuals)
 
                 </button>
             </Link>
@@ -52,11 +52,53 @@ export default class StimulantVipButtonContainer extends Component {
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
                     </div>
-
-                    SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix) [FREE DL]
+                    His Chransen - Stimulant (VIP) [FREE DL]
                 </button>
             </Link>
         </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="visit-bigger-link" to={{ pathname: "https://youtu.be/Pebqg1ULIcc"}} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon={['fab', 'spotify']} />
+                    </div>
+
+                    His Chransen - Stimulant (VIP) on Spotify
+
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="visit-bigger-link" to={{ pathname: "https://youtu.be/Pebqg1ULIcc"}} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon={['fab', 'apple']} />
+                    </div>
+
+                    His Chransen - Stimulant (VIP) on Apple Music
+
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="visit-bigger-link" to={{ pathname: "https://youtu.be/Pebqg1ULIcc"}} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon={['fab', 'amazon']} />
+                    </div>
+
+                    His Chransen - Stimulant (VIP) on Amazon
+
+                </button>
+            </Link>
+        </div>
+       
         <div className='homepage-link-wrapper'>
             <Link className="go-back-link" to="/new-releases">
                 Go Back
