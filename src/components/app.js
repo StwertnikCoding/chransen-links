@@ -14,11 +14,13 @@ import TheOrder from './pages/recent-releases/the-order';
 import PromiseUThat from './pages/recent-releases/promise-u-that';
 import KnockKnock from './pages/recent-releases/knock-knock';
 import TheVisit from './pages/recent-releases/the-visit-remix';
-import ComingSoon from './pages/recent-releases/coming-soon';
-import NuhUh from './pages/nuh-uh';
-import NoMatch from './pages/no-match';
 import StimulantVip from './pages/recent-releases/stimulant-vip';
 import GhostWobbleVip from './pages/recent-releases/ghost-wobble-vip';
+import ComingSoon from './pages/recent-releases/coming-soon';
+import SpaceCreamAlbum from './pages/recent-releases/space-cream-album';
+import NuhUh from './pages/nuh-uh';
+import NoMatch from './pages/no-match';
+
 
 
 
@@ -41,6 +43,7 @@ export default class App extends Component {
               <Route exact path="/spaceghost-thevisit-remix" component={TheVisit} />
               <Route exact path ="/stimulant-vip" component={StimulantVip} />
               <Route exact path = "/ghost-wobble-vip" component={GhostWobbleVip} />
+              <Route exact path = "/coming-soon-album" component={SpaceCreamAlbum} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               
