@@ -21,7 +21,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to="/nuh-uh">
+        <Link className="bigger-link" to={{ pathname: "https://soundcloud.com/chransen/ghostwobblevip-3/s-qNPZoliIKWV?si=db0e409258c44148b84850c3ec2c3adb"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -91,7 +91,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/6qw8xe"}} target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/o7uxa5"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
