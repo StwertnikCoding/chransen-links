@@ -19,18 +19,9 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/the-order">
+                <Link className="bigger-link" to="/ghost-wobble-vip">
                     <button className="new-release-btn-link">
-                        His Chransen - The Order [800 Follower FREE DL]
-                    </button>
-                </Link>
-            </div>
-
-            <div className='new-release-btn-link-wrapper'>
-                
-                <Link className="bigger-link" to="/promise-u-that">
-                    <button className="new-release-btn-link">
-                        His Chransen x ASTRoNoT - Promise U That
+                        His Chransen - Ghost Wobble (VIP)
                     </button>
                 </Link>
             </div>
@@ -46,9 +37,9 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/ghost-wobble-vip">
+                <Link className="bigger-link" to="/spaceghost-thevisit-remix">
                     <button className="new-release-btn-link">
-                        His Chransen - Ghost Wobble (VIP)
+                        SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix)
                     </button>
                 </Link>
             </div>
@@ -64,9 +55,18 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/spaceghost-thevisit-remix">
+                <Link className="bigger-link" to="/the-order">
                     <button className="new-release-btn-link">
-                        SpaceGhost x Brikz x Mammoth (SpaceGhost VIP) (His Chransen Remix)
+                        His Chransen - The Order [800 Follower FREE DL]
+                    </button>
+                </Link>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
+                <Link className="bigger-link" to="/promise-u-that">
+                    <button className="new-release-btn-link">
+                        His Chransen x ASTRoNoT - Promise U That
                     </button>
                 </Link>
             </div>
