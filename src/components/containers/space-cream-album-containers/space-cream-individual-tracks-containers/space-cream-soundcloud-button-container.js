@@ -16,23 +16,55 @@ export default class SpaceCreamSoundcloudButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>Out 12/1</h1>
+
+            <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon={['fab', 'soundcloud']} />
+            </div>
+
+            <h1>Out on Soundcloud 12/1</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/space-cream-full-album">
+            <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    His Chransen - Space Cream EP (Whole Album)
+                    His Chransen - Space Cream 
                 </button>
             </Link>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/space-cream-individual">
+            <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    His Chransen - Space Cream EP (Individual Links)
+                    His Chransen - Absolute Quiet 
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to="/nuh-uh">
+                <button className="new-release-btn-link">
+                    Darude - Sandstorm (His Chransen Remix) 
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to="/nuh-uh">
+                <button className="new-release-btn-link">
+                    His Chransen - Lost Connection 
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to="/nuh-uh">
+                <button className="new-release-btn-link">
+                    His Chransen - Strength Update
                 </button>
             </Link>
         </div>
