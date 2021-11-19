@@ -40,7 +40,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) (Youtube Premiere)
+                    His Chransen - Ghost Wobble (VIP) (Official Visuals)
 
                 </button>
             </Link>
@@ -49,7 +49,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://open.spotify.com/album/2MeHWfJUs2BTZ2fup0EOE1"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -63,7 +63,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to="/nuh-uh" target="_blank">
+        <Link className="bigger-link" to={{ pathname: "https://music.apple.com/us/album/ghost-wobble-vip-single/1593053184?uo=4&app=music&at=1001lry3&ct=dashboard" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'apple']} />
@@ -77,7 +77,7 @@ export default class GhostWobbleVipButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://www.amazon.com/gp/product/B09KSWLM15/?tag=distrokid06-20" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
