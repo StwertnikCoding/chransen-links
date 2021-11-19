@@ -28,14 +28,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
             </Link>
         </div>
 
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/space-cream-individual">
-                <button className="new-release-btn-link">
-                    His Chransen - Space Cream EP (Individual Links)
-                </button>
-            </Link>
-        </div>
+        
 
 
         <div className='homepage-link-wrapper'>
