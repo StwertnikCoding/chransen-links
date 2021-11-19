@@ -22,6 +22,7 @@ import SpaceCreamFullAlbum from './pages/recent-releases/space-cream-album/space
 import SpaceCreamIndividualTracks from './pages/recent-releases/space-cream-album/space-cream-individual-tracks';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
+import SpaceCreamSoundcloud from './pages/recent-releases/space-cream-album/space-cream-individual-songs/space-cream-soundcloud';
 
 
 
@@ -49,6 +50,7 @@ export default class App extends Component {
               <Route exact path = "/space-cream-ep" component={SpaceCreamAlbum} />
               <Route exact path = "/space-cream-full-album" component={SpaceCreamFullAlbum} />
               <Route exact path = "/space-cream-individual" component={SpaceCreamIndividualTracks} />
+              <Route exact path = "/space-cream-soundcloud" component={SpaceCreamSoundcloud} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               <Route component={NoMatch} />
