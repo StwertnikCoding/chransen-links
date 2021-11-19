@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
-import SpaceCreamAlbumCover from '../images/space-cream-album-cover';
+import SpaceCreamAlbumCover from '../../images/space-cream-album-cover';
 
 export default class SpaceCreamAlbumButtonContainer extends Component {
   render() {
@@ -21,7 +21,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/coming-soon-album">
+            <Link className="bigger-link" to="/space-cream-full-album">
                 <button className="new-release-btn-link">
                     His Chransen - Space Cream EP (Whole Album)
                 </button>
