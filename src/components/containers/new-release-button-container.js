@@ -73,9 +73,9 @@ export default class NewReleaseButtonContainer extends Component {
 
             <div className='new-release-btn-link-wrapper'>
                 
-                <Link className="bigger-link" to="/coming-soon">
+                <Link className="bigger-link" to="/space-cream-ep">
                     <button className="new-release-btn-link">
-                        Coming Soon
+                        Space Cream EP (Coming Soon)
                     </button>
                 </Link>
             </div>

@@ -43,6 +43,7 @@ export default class App extends Component {
               <Route exact path="/spaceghost-thevisit-remix" component={TheVisit} />
               <Route exact path ="/stimulant-vip" component={StimulantVip} />
               <Route exact path = "/ghost-wobble-vip" component={GhostWobbleVip} />
+              <Route exact path = "/space-cream-ep" component={SpaceCreamAlbum} />
               <Route exact path = "/coming-soon-album" component={SpaceCreamAlbum} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />

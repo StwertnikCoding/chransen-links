@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import ChransenLogo from '../images/chransen-logo';
 
-export default class ComingSoonButtonContainer extends Component {
+export default class SpaceCreamAlbumButtonContainer extends Component {
   render() {
     return (
         <div className="new-release-btn-links-wrapper">
@@ -20,25 +20,9 @@ export default class ComingSoonButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <Link className="bigger-link" to="/coming-soon-album">
                 <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'soundcloud']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Soundcloud
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'spotify']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Spotify
+                    His Chransen - Space Cream EP (Whole Album)
                 </button>
             </Link>
         </div>
@@ -47,37 +31,7 @@ export default class ComingSoonButtonContainer extends Component {
             
             <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'amazon']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Amazon
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'apple']} />
-                    </div>
-
-                    His Chransen - Coming Soon on Apple Music
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/nuh-uh">
-            <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon='download' />
-                    </div>
-
-                    His Chransen - Coming Soon [FREE DL]
+                    His Chransen - Space Cream EP (Individual Links)
                 </button>
             </Link>
         </div>
