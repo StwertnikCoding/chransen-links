@@ -40,7 +40,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    His Chransen - Space Cream EP (Youtube Trailer)
+                    His Chransen - Space Cream EP on Youtube
 
                 </button>
             </Link>

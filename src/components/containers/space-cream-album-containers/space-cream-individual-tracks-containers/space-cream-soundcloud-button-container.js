@@ -71,7 +71,7 @@ export default class SpaceCreamSoundcloudButtonContainer extends Component {
 
 
         <div className='homepage-link-wrapper'>
-            <Link className="go-back-link" to="/new-releases">
+            <Link className="go-back-link" to="/space-cream-individual">
                 Go Back
             </Link>
         </div>
