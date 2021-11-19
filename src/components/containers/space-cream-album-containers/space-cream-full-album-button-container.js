@@ -102,7 +102,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
         </div>
        
         <div className='homepage-link-wrapper'>
-            <Link className="go-back-link" to="/new-releases">
+            <Link className="go-back-link" to="/space-cream-ep">
                 Go Back
             </Link>
         </div>

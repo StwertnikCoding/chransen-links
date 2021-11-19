@@ -21,7 +21,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to={{ pathname: "https://soundcloud.com/chransen/ghostwobblevip-3/s-qNPZoliIKWV?si=db0e409258c44148b84850c3ec2c3adb"}} target="_blank">
+        <Link className="bigger-link" to="/space-cream-soundcloud">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -34,7 +34,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=dHAVPoXWSn0" }} target="_blank">
+            <Link className="bigger-link" to="/space-cream-youtube">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
@@ -49,7 +49,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to="/space-cream-spotify">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -63,7 +63,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to="/nuh-uh" target="_blank">
+        <Link className="bigger-link" to="/space-cream-apple">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'apple']} />
@@ -77,7 +77,7 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to="/space-cream-amazon">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
@@ -91,18 +91,18 @@ export default class SpaceCreamIndividualTracksButtonContainer extends Component
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/o7uxa5"}} target="_blank">
+            <Link className="bigger-link" to="/space-cream-downloads" target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
                     </div>
-                    His Chransen - Space Cream EP [FREE DL]
+                    His Chransen - Space Cream EP [FREE DLS]
                 </button>
             </Link>
         </div>
        
         <div className='homepage-link-wrapper'>
-            <Link className="go-back-link" to="/new-releases">
+            <Link className="go-back-link" to="/space-cream-ep">
                 Go Back
             </Link>
         </div>
