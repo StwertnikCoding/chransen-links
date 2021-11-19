@@ -19,8 +19,10 @@ import GhostWobbleVip from './pages/recent-releases/ghost-wobble-vip';
 import ComingSoon from './pages/recent-releases/coming-soon';
 import SpaceCreamAlbum from './pages/recent-releases/space-cream-album/space-cream-album';
 import SpaceCreamFullAlbum from './pages/recent-releases/space-cream-album/space-cream-full-album';
+import SpaceCreamIndividualTracks from './pages/recent-releases/space-cream-album/space-cream-individual-tracks';
 import NuhUh from './pages/nuh-uh';
 import NoMatch from './pages/no-match';
+
 
 
 
@@ -46,7 +48,7 @@ export default class App extends Component {
               <Route exact path = "/ghost-wobble-vip" component={GhostWobbleVip} />
               <Route exact path = "/space-cream-ep" component={SpaceCreamAlbum} />
               <Route exact path = "/space-cream-full-album" component={SpaceCreamFullAlbum} />
-
+              <Route exact path = "/space-cream-individual" component={SpaceCreamIndividualTracks} />
               <Route exact path="/coming-soon" component={ComingSoon} />
               <Route exact path="/nuh-uh" component={NuhUh} />
               <Route component={NoMatch} />

@@ -16,7 +16,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>Coming Soon !!!!</h1>
+            <h1>Out 12/1</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
@@ -30,7 +30,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <Link className="bigger-link" to="/space-cream-individual">
                 <button className="new-release-btn-link">
                     His Chransen - Space Cream EP (Individual Links)
                 </button>
