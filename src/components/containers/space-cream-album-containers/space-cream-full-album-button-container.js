@@ -16,7 +16,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
 
 
         <div className="new-release-heading">
-            <h1>Halloween</h1>
+            <h1>Out 12/1</h1>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
@@ -27,20 +27,20 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) on Soundcloud
+                    His Chransen - Space Cream EP on Soundcloud
                 </button>
             </Link>
         </div>
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=v8I8zg4Lz1o" }} target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=dHAVPoXWSn0" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) (Youtube Premiere)
+                    His Chransen - Space Cream EP (Youtube Trailer)
 
                 </button>
             </Link>
@@ -55,7 +55,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) on Spotify
+                    His Chransen - Space Cream EP on Spotify
 
                 </button>
             </Link>
@@ -69,7 +69,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'apple']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) on Apple Music
+                    His Chransen - Space Cream EP on Apple Music
 
                 </button>
             </Link>
@@ -83,7 +83,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
                     </div>
 
-                    His Chransen - Ghost Wobble (VIP) on Amazon
+                    His Chransen - Space Cream EP on Amazon
 
                 </button>
             </Link>
@@ -96,7 +96,7 @@ export default class SpaceCreamFullAlbumButtonContainer extends Component {
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
                     </div>
-                    His Chransen - Ghost Wobble (VIP) [FREE DL]
+                    His Chransen - Space Cream EP [FREE DL]
                 </button>
             </Link>
         </div>
