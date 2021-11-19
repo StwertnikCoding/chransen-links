@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import HeadingContainer from '../../../containers/heading-container';
-import GhostWobbleVipButtonContainer from '../../../containers/ghost-wobble-vip-btn-container';
+import SpaceCreamFullAlbumButtonContainer from '../../../containers/space-cream-album-containers/space-cream-full-album-button-container';
 import IconContainer from '../../../containers/icon-container';
 
 export default class SpaceCreamFullAlbum extends Component {
@@ -13,7 +13,7 @@ export default class SpaceCreamFullAlbum extends Component {
         </div>
 
         <div className="link-container-wrapper">
-            <GhostWobbleVipButtonContainer />
+            <SpaceCreamFullAlbumButtonContainer />
         </div>
 
         <div className="icon-container-wrapper">
