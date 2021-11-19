@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import SpaceCreamAlbumCover from '../../../images/space-cream-album-cover';
 
-export default class SpaceCreamSoundcloudButtonContainer extends Component {
+export default class SpaceCreamYoutubeButtonContainer extends Component {
   render() {
     return (
         <div className="new-release-btn-links-wrapper">
