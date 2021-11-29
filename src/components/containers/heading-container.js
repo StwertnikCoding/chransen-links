@@ -10,7 +10,6 @@ export default class HeadingContainer extends Component {
         <div className="heading-wrapper"> 
            <ChransenLogo />
 
-           <h2 className="subtitle">Click a button</h2>
         </div>
       </div>
     );
