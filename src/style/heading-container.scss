@@ -3,9 +3,5 @@
     
     .heading-wrapper {
         @include base-heading-wrapper();
-
-        .subtitle {
-            @include  base-heading-subtitle();
-        }
     }
 }

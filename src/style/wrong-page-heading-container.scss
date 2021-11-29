@@ -5,10 +5,5 @@
     
     .wrong-page-heading-wrapper {
         @include base-heading-wrapper();
-
-        .wrong-page-subtitle {
-            @include  base-heading-subtitle();
-            
-        }
     }
 }
