@@ -8,4 +8,4 @@ export default class ChransenLogo extends Component {
       </div>
     );
   }
-}
+} 

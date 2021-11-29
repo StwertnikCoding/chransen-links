@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 
 import HeadingContainer from '../containers/heading-container';
-import BtnContainer from '../containers/btn-container';
+import HomepageButtonContainer from '../containers/coming-soon-button-container';
 import IconContainer from '../containers/icon-container';
 
 export default class Homepage extends Component {
@@ -14,7 +14,7 @@ export default class Homepage extends Component {
         </div>
 
         <div className="btn-container-wrapper">
-          <BtnContainer />
+          <HomepageButtonContainer />
         </div>
 
         <div className="icon-container-wrapper">
