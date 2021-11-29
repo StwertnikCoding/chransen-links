@@ -63,7 +63,7 @@
     border-radius: 20px;
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
-    color: $chransengreen;
+    color: $chransencoolgreen;
     box-shadow: 0 3px 2px $chransencoolgreen;
 
     &:active, &:focus {
@@ -72,9 +72,9 @@
 
     &:hover {
         color: $chransenmidgreen;
-        background-color: $chransengreen;
+        background-color: $chransencoolgreen;
         border-radius: 40px;
-        box-shadow: 0 3px 3px $chransenred;
+        box-shadow: 0 3px 3px $chransenmidgreen;
         
     }
 }
