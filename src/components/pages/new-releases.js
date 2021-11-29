@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import HeadingContainer from '../containers/heading-container';
-import LinkContainer from '../containers/the-order-button-container';
 import NewReleaseButtonContainer from '../containers/new-release-button-container';
 import IconContainer from '../containers/icon-container';
 

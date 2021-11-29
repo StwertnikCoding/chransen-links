@@ -10,8 +10,6 @@ import { faDownload } from "@fortawesome/free-solid-svg-icons";
 
 import Homepage from './pages/home'; 
 import NewReleases from './pages/new-releases';
-import TheOrder from './pages/recent-releases/the-order';
-import PromiseUThat from './pages/recent-releases/promise-u-that';
 import KnockKnock from './pages/recent-releases/knock-knock';
 import TheVisit from './pages/recent-releases/the-visit-remix';
 import StimulantVip from './pages/recent-releases/stimulant-vip';
@@ -39,8 +37,6 @@ export default class App extends Component {
             <Switch>
               <Route exact path="/" component={Homepage} />
               <Route exact path ="/new-releases" component={NewReleases} />
-              <Route exact path="/promise-u-that" component={PromiseUThat} />
-              <Route exact path="/the-order" component={TheOrder} />
               <Route exact path="/chibs-knock-knock-remix" component={KnockKnock} />
               <Route exact path="/spaceghost-thevisit-remix" component={TheVisit} />
               <Route exact path ="/stimulant-vip" component={StimulantVip} />
