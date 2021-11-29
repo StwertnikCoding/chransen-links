@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import HeadingContainer from '../../../containers/heading-container';
-import SpaceCreamAlbumButtonContainer from '../../../containers/space-cream-album-containers/space-cream-album-btn-container';
+import SpaceCreamAlbumButtonContainer from '../../../containers/space-cream-album-containers/space-cream-album-button-container';
 import IconContainer from '../../../containers/icon-container';
 
 export default class SpaceCreamAlbum extends Component {

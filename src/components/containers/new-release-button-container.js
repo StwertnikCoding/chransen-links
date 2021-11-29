@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import ChransenLogo from '../images/chransen-logo';
+import SpaceCreamAlbumCover from '../images/space-cream-album-cover';
 
 export default class NewReleaseButtonContainer extends Component {
   render() {
@@ -9,12 +9,21 @@ export default class NewReleaseButtonContainer extends Component {
         <div className="new-release-btn-links-wrapper">
         
             <div className="cover-image-wrapper">
-                <ChransenLogo />
+                <SpaceCreamAlbumCover />
             </div>
 
 
             <div className="new-release-heading">
                 <h3>Check Out My Recent Releases Below</h3>
+            </div>
+
+            <div className='new-release-btn-link-wrapper'>
+                
+                <Link className="bigger-link" to="/space-cream-ep">
+                    <button className="new-release-btn-link">
+                        Space Cream EP (Coming Soon)
+                    </button>
+                </Link>
             </div>
 
             <div className='new-release-btn-link-wrapper'>
@@ -53,32 +62,11 @@ export default class NewReleaseButtonContainer extends Component {
                 </Link>
             </div>
 
-            <div className='new-release-btn-link-wrapper'>
-                
-                <Link className="bigger-link" to="/the-order">
-                    <button className="new-release-btn-link">
-                        His Chransen - The Order [800 Follower FREE DL]
-                    </button>
-                </Link>
-            </div>
+            
 
-            <div className='new-release-btn-link-wrapper'>
-                
-                <Link className="bigger-link" to="/promise-u-that">
-                    <button className="new-release-btn-link">
-                        His Chransen x ASTRoNoT - Promise U That
-                    </button>
-                </Link>
-            </div>
+            
 
-            <div className='new-release-btn-link-wrapper'>
-                
-                <Link className="bigger-link" to="/space-cream-ep">
-                    <button className="new-release-btn-link">
-                        Space Cream EP (Coming Soon)
-                    </button>
-                </Link>
-            </div>
+            
             <div className="exit-buttons-wrapper">
                
                 <div className='homepage-link-wrapper'>
