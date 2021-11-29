@@ -55,15 +55,15 @@
     text-align: center;
     cursor: pointer;
     height: 60px;
-    width: 250px;
+    width: 300px;
     font-size: 0.8rem;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
     border: 1px solid transparent;
-    border-radius: 20px;
+    border-radius: 8px;
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
-    color: $chransencoolgreen;
+    color: $chransentextgreen;
     box-shadow: 0 3px 2px $chransencoolgreen;
 
     &:active, &:focus {
@@ -73,7 +73,7 @@
     &:hover {
         color: $chransenmidgreen;
         background-color: $chransencoolgreen;
-        border-radius: 40px;
+        border-radius: 15px;
         box-shadow: 0 3px 3px $chransenmidgreen;
         
     }
@@ -116,11 +116,11 @@
     font-family: 'Source Code Pro', monospace;
     font-weight: 200;
     border: 1px solid transparent;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: all 0.3s ease-in-out;
     background-color: $chransenmidgreen;
-    color: $chransengreen;
-    box-shadow: 0 2px 3px $chransenred;
+    color: $chransentextgreen;
+    box-shadow: 0 2px 3px $chransencoolgreen;
 
     &:active, &:focus {
         outline: none;
@@ -128,8 +128,8 @@
 
     &:hover {
         color: $chransenmidgreen;
-        background-color: $chransengreen;
-        box-shadow: 0 3px 4px $chransencoolgreen;
+        background-color: $chransencoolgreen;
+        box-shadow: 0 3px 4px $chransenred;
         
     }
 }
@@ -149,6 +149,7 @@
     justify-content: space-around;
     align-items: center;
     background-color: $chransenmidgreen;
+    border-bottom: 1px solid $chransencoolgreen;
     
 
 }
