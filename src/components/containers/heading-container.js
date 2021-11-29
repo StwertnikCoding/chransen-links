@@ -9,7 +9,6 @@ export default class HeadingContainer extends Component {
       <div className="heading-container">
         <div className="heading-wrapper"> 
            <ChransenLogo />
-
         </div>
       </div>
     );
