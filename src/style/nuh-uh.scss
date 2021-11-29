@@ -20,12 +20,12 @@
                 
                 .gif {
                     height: 130px;
-                    border: 2px solid $chransencoolgreen;
+                    border: 2px solid $chransencoolpurple;
                     border-radius: 15px;
                     transition: 0.3s ease-in-out;
 
                     &:hover {
-                        border: 2px solid $chransengreen;
+                        border: 2px solid $chransentextpurple;
                         border-radius: 25px;
                     }
 
