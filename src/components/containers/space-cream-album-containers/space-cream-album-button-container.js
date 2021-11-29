@@ -21,7 +21,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to={{ pathname: "https://soundcloud.com/chransen/ghostwobblevip-3/s-qNPZoliIKWV?si=db0e409258c44148b84850c3ec2c3adb"}} target="_blank">
+        <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'soundcloud']} />
@@ -49,7 +49,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -63,7 +63,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to="/nuh-uh" target="_blank">
+        <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'apple']} />
@@ -77,7 +77,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh" target="_blank">
+            <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
@@ -91,7 +91,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/o7uxa5"}} target="_blank">
+            <Link className="bigger-link" to="/nuh-uh">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
@@ -102,7 +102,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
         </div>
        
         <div className='homepage-link-wrapper'>
-            <Link className="go-back-link" to="/space-cream-ep">
+            <Link className="go-back-link" to="/new-releases">
                 Go Back
             </Link>
         </div>
