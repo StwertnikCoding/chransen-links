@@ -34,13 +34,13 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to={{ pathname: "https://www.youtube.com/watch?v=dHAVPoXWSn0" }} target="_blank">
+            <Link className="bigger-link" to={{ pathname: "https://youtube.com/playlist?list=PLwyxpFF4tMhfIOlFtK-SkRefYuncf82yh" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'youtube']} />
                     </div>
 
-                    His Chransen - Space Cream EP (Youtube Trailer)
+                    His Chransen - Space Cream EP (Youtube Playlist)
 
                 </button>
             </Link>
