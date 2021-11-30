@@ -18,85 +18,51 @@ export default class SpaceCreamDownloadsButtonContainer extends Component {
         <div className="new-release-heading">
             <h1>Out 12/1</h1>
         </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-        <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'soundcloud']} />
-                    </div>
-
-                    His Chransen - Space Cream EP on Soundcloud
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to={{ pathname: "https://youtube.com/playlist?list=PLwyxpFF4tMhfIOlFtK-SkRefYuncf82yh" }} target="_blank">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'youtube']} />
-                    </div>
-
-                    His Chransen - Space Cream EP (Youtube Playlist)
-
-                </button>
-            </Link>
-        </div>
         
-
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'spotify']} />
-                    </div>
-
-                    His Chransen - Space Cream EP on Spotify
-
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-        <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'apple']} />
-                    </div>
-
-                    His Chransen - Space Cream EP on Apple Music
-
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/nuh-uh">
-                <button className="new-release-btn-link">
-                    <div className="new-release-social-icon"> 
-                        <FontAwesomeIcon icon={['fab', 'amazon']} />
-                    </div>
-
-                    His Chransen - Space Cream EP on Amazon
-
-                </button>
-            </Link>
-        </div>
-
-        <div className='new-release-btn-link-wrapper'>
-            
-            <Link className="bigger-link" to="/space-cream-downloads">
+            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/fyy1sr" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon='download' />
                     </div>
-                    His Chransen - Space Cream EP [FREE DL]
+                    His Chransen - Space Cream [FREE DL]
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/0c1r9g" }} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon='download' />
+                    </div>
+                    His Chransen - Absolute Quiet [FREE DL]
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/m30ir0" }} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon='download' />
+                    </div>
+                    His Chransen - Lost Connection [FREE DL]
+                </button>
+            </Link>
+        </div>
+
+        <div className='new-release-btn-link-wrapper'>
+            
+            <Link className="bigger-link" to={{ pathname: "https://hypeddit.com/hkg93f" }} target="_blank">
+                <button className="new-release-btn-link">
+                    <div className="new-release-social-icon"> 
+                        <FontAwesomeIcon icon='download' />
+                    </div>
+                    His Chransen - Strength Update [FREE DL]
                 </button>
             </Link>
         </div>
