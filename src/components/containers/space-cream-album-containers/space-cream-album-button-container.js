@@ -49,7 +49,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <Link className="bigger-link" to={{ pathname: "https://open.spotify.com/album/5CqeanDNXlQ5HAhAv2ekbi"}} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'spotify']} />
@@ -63,7 +63,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-        <Link className="bigger-link" to="/nuh-uh">
+        <Link className="bigger-link" to= {{ pathname: "https://music.apple.com/us/album/space-cream-ep/1598151362?uo=4&app=music&at=1001lry3&ct=dashboard" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'apple']} />
@@ -77,7 +77,7 @@ export default class SpaceCreamAlbumButtonContainer extends Component {
 
         <div className='new-release-btn-link-wrapper'>
             
-            <Link className="bigger-link" to="/nuh-uh">
+            <Link className="bigger-link" to={{ pathname: "https://www.amazon.com/gp/product/B09MV2XYLC/?tag=distrokid06-20" }} target="_blank">
                 <button className="new-release-btn-link">
                     <div className="new-release-social-icon"> 
                         <FontAwesomeIcon icon={['fab', 'amazon']} />
